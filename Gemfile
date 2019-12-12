@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
+gem 'jekyll-titles-from-headings'
 
 # use local theme gem for testing
 # gem "jekyll-theme-so-simple", path: "../"

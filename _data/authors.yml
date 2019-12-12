@@ -1,16 +1,38 @@
-# Sample Authors
-# Remove file or replace with your own
+# Researchers
 
-Billy Rick:
-  name: Billy Rick
-  picture: /images/bio-photo-2.jpg
-  twitter: "@billyrick"
+Benjamin Van Durme:
+  name: Benjamin Van Durme
+  picture: /images/bvandurme.jpg
   links:
     - title: Twitter
       url: https://twitter.com/billyrick
       icon: fab fa-twitter-square
 
-Cornelius Fiddlebone:
-  name: Cornelius Fiddlebone
-  picture: /images/bio-photo.jpg
-  twitter: corneliusfiddlebone
+Matt Post:
+  name: Matt Post
+  picture: /images/mpost.jpg
+
+Rachel Rudinger:
+  name: Rachel Rudinger
+  picture: /images/rrudinger.jpg
+
+Huda Khayrallah:
+  name: Huda Khayrallah
+  picture: /images/hkhayrallah.jpg
+
+Ryan Culkin:
+  name: Ryan Culkin
+  picture: /images/rculkin.jpg
+
+Patrick Xia:
+  name: Patrick Xia
+  picture: /images/pxia.jpg
+
+Tongfei Chen:
+  name: Tongfei Chen
+  picture: /images/pxia.jpg
+
+Edward Hu:
+  name: Edward Hu
+  picture: /images/ehu.jpg
+
