@@ -391,8 +391,7 @@ body { font-size: 0.9rem; }
 
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, .highlight { -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; transition: all 0.2s ease; }
 
-.bio-photo-about { width: 100px; height: 100px; }
-@media (min-width: 48em) { .bio-photo-about { width: 150px; height: 150px; margin-top: 10px; border-radius: 150px; } }
+.bio-photo-about { width: 150px; height: 150px; margin-top: 10px; border-radius: 150px; }
 
 .bio-photo-about-big { width: 300px; height: 300px; margin-top: 10px; border-radius: 300px; }
 
