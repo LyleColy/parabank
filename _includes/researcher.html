@@ -4,7 +4,7 @@
 	{%- if researcher.picture -%}
 		{%- if researcher.url -%}
 	    	<a href="{{ researcher.url | relative_url }}">
-	        	<img src="{{ researcher.picture }}" class="bio-photo-about" alt="{{ researcher.name }}">
+	        	<img src="{{ researcher.picture | relative_url}}" class="bio-photo-about" alt="{{ researcher.name }}">
 	      	</a>
 	    {%- endif -%}
 	    <br>

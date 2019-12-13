@@ -4,7 +4,7 @@
 	{% assign name = include.name %}
 
 	<a href="{{ url | relative_url }}">
-    	<img src="{{ picture }}" class="bio-photo-about-big" alt="{{ name }}">
+    	<img src="{{ picture | relative_url }}" class="bio-photo-about-big" alt="{{ name }}">
   	</a>
 
 </center>
