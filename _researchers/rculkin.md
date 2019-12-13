@@ -6,7 +6,7 @@ picture: /images/rculkin.jpg
 url: /researchers/rculkin
 category: graduate
 position: Research Assistant
-university: Johns Hopkins University
+univ: Johns Hopkins University
 ---
 
 # Ryan Culkin

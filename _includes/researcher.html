@@ -20,15 +20,17 @@
   	{%- if include.page == 'researchers' -%}
   		{%- if researcher.position -%}
 			{{ researcher.position}}
+			<br>
 	    {%- endif -%}
-	    <br>
+	    
 	    {%- if researcher.category -%}
-	  		{%- if researcher.category == research and research.department -%}
+	  		{%- if researcher.category == 'research' and researcher.department-%}
 	  			{{ researcher.department }}
-	  		{%- elsif researcher.category != research and research.university -%}
-	  			{{ researcher.university}}
-	  		{%- endif -%}
+	  		{%- elsif researcher.category != 'research'and researcher.univ-%}
+	  			{{ researcher.univ }}
+s	  		{%- endif -%}
+	  		<br>
 	  	{%- endif -%}
-  		<br>
+  		
   	{%- endif -%}
 </center>

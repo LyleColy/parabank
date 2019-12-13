@@ -6,7 +6,7 @@ picture: /images/rrudinger.jpg
 url: /researchers/rrudinger
 category: research
 position: Research Scientist
-department: department
+department: AI2
 ---
 
 # Rachel Rudinger

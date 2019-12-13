@@ -6,7 +6,7 @@ picture: /images/hkhayrallah.jpg
 url: /researchers/hkhayrallah
 category: graduate
 position: Research Assistant
-university: Johns Hopkins University
+univ: Johns Hopkins University
 ---
 
 # Huda Khayrallah

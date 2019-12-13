@@ -6,7 +6,7 @@ picture: /images/ehu.jpg
 url: /researchers/edu
 category: undergraduate
 position: Research Assistant
-university: Johns Hopkins University
+univ: Johns Hopkins University
 ---
 
 # Edward Hu
