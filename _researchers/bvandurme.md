@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 name: Benjamin Van Durme
 abbr_name: bvandurme
 picture: /images/bvandurme.jpg
@@ -11,7 +11,7 @@ university: Johns Hopkins University
 
 # Benjamin Van Durme
 
-![Image](/images/bvandurme.jpg)
+{% include stuff_image.html link=page.link picture=page.picture name=page.name %}
 
 ## Project
 

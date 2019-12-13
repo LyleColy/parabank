@@ -308,6 +308,10 @@ tr, td, th { vertical-align: middle; font-size: 0.9rem; }
 /* ========================================================================== Site-wide ========================================================================== */
 .skip-links ul { margin: 0; padding: 0; list-style: none; }
 
+a { text-decoration: none; }
+
+body { font-size: 0.9rem; }
+
 #menu-toggle { display: block; margin: 0; padding: 0.25em 0.75em 0.5em; text-transform: uppercase; text-decoration: none; text-align: center; }
 @media (min-width: 48em) { #menu-toggle { display: none; } }
 
@@ -392,6 +396,8 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
 .bio-photo-about { width: 100px; height: 100px; }
 @media (min-width: 48em) { .bio-photo-about { width: 150px; height: 150px; margin-top: 10px; border-radius: 150px; } }
+
+.bio-photo-about-big { width: 300px; height: 300px; margin-top: 10px; border-radius: 300px; }
 
 /* ========================================================================== Page ========================================================================== */
 .page-wrapper { margin: 0 auto; padding-left: 1em; padding-right: 1em; max-width: 1024px; }

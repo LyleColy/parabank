@@ -10,6 +10,13 @@
   }
 }
 
+a {
+    text-decoration: none;
+}
+
+body {
+  font-size: 0.9rem;
+}
 #menu-toggle {
   display: block;
   margin: 0;
@@ -369,4 +376,11 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
     margin-top: 10px;
     border-radius: 1.5 * $site-logo-width;
   }
+}
+
+.bio-photo-about-big {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 300px;
 }

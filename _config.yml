@@ -19,7 +19,7 @@ skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "The Decompositional Semantics Initiative"  
 description: "Rapid, simple, commonsensical annotations of meaning"
-baseurl: "https://lylecoly.github.io/parabank"
+baseurl: # "https://lylecoly.github.io/parabank"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/decomp.png"
 date_format: "%B %-d, %Y"
@@ -111,6 +111,7 @@ titles_from_headings:
 # author collection
 collections:
   researchers: 
+    output: true
 
 # permanent links
 permalink: 
