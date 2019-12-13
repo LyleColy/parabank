@@ -77,7 +77,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-titles-from-headings
 
 # Front Matter Defaults
 defaults:
@@ -111,7 +110,7 @@ titles_from_headings:
 
 # author collection
 collections:
-  authors: 
+  researchers: 
 
 # permanent links
 permalink: 

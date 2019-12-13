@@ -15,11 +15,6 @@ a {
     color: shade($accent-color, 25%);
   }
 }
-
-blockquote {
-  background-color: mix($background-color, $accent-color, 90%);
-  border-left-color: $accent-color;
-}
   
 /* ==========================================================================
    Site-wide

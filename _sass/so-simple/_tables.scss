@@ -10,11 +10,17 @@ table {
   // scss-lint:disable DuplicateProperty
   word-break: normal;
   word-break: keep-all;
+  border-collapse: separate;
+  border-spacing: 2px;
+
+  a {
+    text-decoration:none
+  }
 }
 
 th,
 td {
-  border-bottom: 1px solid;
+  border-bottom: 0px solid;
 }
 
 th {
@@ -31,4 +37,5 @@ tr,
 td,
 th {
   vertical-align: middle;
+  font-size: 0.9rem;
 }

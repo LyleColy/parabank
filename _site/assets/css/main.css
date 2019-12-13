@@ -147,7 +147,7 @@ mark { background-color: #ff0; color: #000; }
 small { font-size: 80%; }
 
 /** Change the margin and padding and add a line rule on the left-side in all browsers (opinionated). */
-blockquote { margin-right: 0; margin-left: 0; padding: 2em 3em; border-left: solid 0.5em; }
+blockquote { margin-right: 0; margin-left: 0; padding-left: 20px; border-left: solid 0.5em; font-family: "volkhov",serif; font-style: italic; font-size: 16px; font-size: 1rem; line-height: 1.5; }
 blockquote *:last-child { margin-bottom: 0; }
 
 /** Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
@@ -290,18 +290,19 @@ figcaption { margin: 0.5rem 0; font-size: 80%; }
 a { -webkit-transition: all 0.4s ease; transition: all 0.4s ease; }
 
 /* ========================================================================== Tables ========================================================================== */
-table { width: 100%; border-collapse: collapse; /* For Firefox to horizontally scroll wider tables */ word-break: normal; word-break: keep-all; }
+table { width: 100%; border-collapse: collapse; /* For Firefox to horizontally scroll wider tables */ word-break: normal; word-break: keep-all; border-collapse: separate; border-spacing: 2px; }
 table { font-size: 12px; }
 @media screen and (min-width: 320px) { table { font-size: calc(12px + 6 * ((100vw - 320px) / 960)); } }
 @media screen and (min-width: 1280px) { table { font-size: 18px; } }
+table a { text-decoration: none; }
 
-th, td { border-bottom: 1px solid; }
+th, td { border-bottom: 0px solid; }
 
 th { padding: 0.5em; font-weight: bold; text-align: left; }
 
 td { padding: 0.5em; }
 
-tr, td, th { vertical-align: middle; }
+tr, td, th { vertical-align: middle; font-size: 0.9rem; }
 
 /* Components */
 /* ========================================================================== Site-wide ========================================================================== */
@@ -387,10 +388,15 @@ tr, td, th { vertical-align: middle; }
 .toc-wrapper li a { display: inline-block; color: inherit; font-size: 0.75rem; font-weight: 600; text-decoration: none; border-bottom: 1px dotted transparent; }
 .toc-wrapper li ol { padding-left: 0.5rem; list-style-type: lower-roman; }
 
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, .highlight { -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; transition: all 0.2s ease; }
+
+.bio-photo-about { width: 100px; height: 100px; }
+@media (min-width: 48em) { .bio-photo-about { width: 150px; height: 150px; margin-top: 10px; border-radius: 150px; } }
+
 /* ========================================================================== Page ========================================================================== */
 .page-wrapper { margin: 0 auto; padding-left: 1em; padding-right: 1em; max-width: 1024px; }
 
-.page-title { margin-bottom: 0.5em; font-family: "Lora", serif; font-weight: bold; font-style: italic; letter-spacing: -2px; }
+.page-title { margin-bottom: 0.5em; font-family: "volkhov", serif; font-weight: normal; font-style: italic; letter-spacing: -2px; }
 .page-title { font-size: 48px; }
 @media screen and (min-width: 320px) { .page-title { font-size: calc(48px + 12 * ((100vw - 320px) / 960)); } }
 @media screen and (min-width: 1280px) { .page-title { font-size: 60px; } }
@@ -477,7 +483,7 @@ tr, td, th { vertical-align: middle; }
 
 .entry-header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 
-.entry-title { margin-bottom: 0.5rem; font-family: "Lora", serif; font-weight: bold; font-style: italic; letter-spacing: -1px; word-wrap: break-word; /* break long words that could overflow */ }
+.entry-title { margin-bottom: 0.5rem; font-family: "volkhov", serif; font-weight: normal; font-style: italic; letter-spacing: -1px; word-wrap: break-word; /* break long words that could overflow */ }
 .entry-title a { text-decoration: none; }
 .entry-title a[rel="bookmark"]::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
 

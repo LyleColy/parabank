@@ -1,11 +1,14 @@
 ---
 layout: home
-limit: 10
+excerpt: "Parabank"
 show_excerpts: true
+paginate: true
 entries_layout: list
 ---
 
-# Parabank
+
+Parabank
+============
 
 
 ## Data
@@ -35,7 +38,4 @@ We also made public our augmented [MNLI](http://cs.jhu.edu/~vandurme/data/pMNLI-
 
 ## Researchers
 
-[Berkeley][Berkeley]
-{% for author in site.authors %}
-	({{ author.content }})
-{% endfor %}
+{% include researchers.html %}

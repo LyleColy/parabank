@@ -351,3 +351,22 @@
     }
   }
 }
+
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, .highlight {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+
+.bio-photo-about {
+  width: $site-logo-width;
+  height: $site-logo-height;
+
+  @include breakpoint($medium) {
+    width: 1.5 * $site-logo-width;
+    height: 1.5 * $site-logo-height;
+    margin-top: 10px;
+    border-radius: 1.5 * $site-logo-width;
+  }
+}

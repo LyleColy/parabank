@@ -1,6 +1,12 @@
 ---
 layout: home
 name: Matt Post
+abbr_name: mpost
+picture: /images/mpost.jpg
+link: /mpost
+category: research
+position: Research Scientist
+department: HLTCOE
 ---
 
 # Matt Post

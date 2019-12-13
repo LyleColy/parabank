@@ -31,8 +31,6 @@ body { color: #eaeaea; background: #252a34; border-top-color: #1a1d24; }
 a { color: #00adb5; }
 a:hover { color: #008288; }
 
-blockquote { background-color: #213741; border-left-color: #00adb5; }
-
 /* ========================================================================== Site-wide ========================================================================== */
 .site-title a { color: #eaeaea; }
 

@@ -223,13 +223,19 @@ small {
 blockquote {
   margin-right: 0;
   margin-left: 0;
-  padding: 2em 3em;
+  padding-left: 20px;
   border-left: solid 0.5em;
+  font-family: "volkhov",serif;
+  font-style: italic;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
 
   *:last-child {
     margin-bottom: 0;
   }
 }
+
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in

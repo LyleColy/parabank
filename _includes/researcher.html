@@ -1,0 +1,34 @@
+<center>
+	{% assign researcher = include.researcher %}
+
+	{%- if researcher.picture -%}
+		{%- if researcher.link -%}
+	    	<a href="{{ researcher.link | relative_url }}">
+	        	<img src="{{ researcher.picture }}" class="bio-photo-about" alt="{{ researcher.name }}">
+	      	</a>
+	    {%- endif -%}
+	    <br>
+  	{%- endif -%}
+
+  	{%- if researcher.name -%}
+	    <a href="{{ researcher.link | relative_url }}">
+	      	<b>{{ researcher.name}}</b>
+	    </a>
+    {%- endif -%}
+    <br>
+
+  	{%- if include.page == 'researchers' -%}
+  		{%- if researcher.position -%}
+			{{ researcher.position}}
+	    {%- endif -%}
+	    <br>
+	    {%- if researcher.category -%}
+	  		{%- if researcher.category == research and research.department -%}
+	  			{{ researcher.department }}
+	  		{%- elsif researcher.category != research and research.university -%}
+	  			{{ researcher.university}}
+	  		{%- endif -%}
+	  	{%- endif -%}
+  		<br>
+  	{%- endif -%}
+</center>

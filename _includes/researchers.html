@@ -1,0 +1,10 @@
+<table>
+	<tbody>
+		{%- tablerow researcher in site.researchers cols:3 -%}
+			{% capture researcher_cap %}
+			{{ researcher }}
+			{% endcapture %}
+			{% include researcher.html researcher=researcher_cap page='home'%}
+		{%- endtablerow -%}
+	</tbody>
+</table>

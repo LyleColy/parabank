@@ -1,0 +1,17 @@
+{% assign researcher_arr = "" | split: ',' %}
+{%- for researcher in site.researchers -%}
+	{%- if researcher.category == include.category -%}
+		{% assign researcher_arr = researcher_arr | push: researcher %}
+	{%- endif -%}
+{%- endfor -%}
+
+<table>
+	<tbody>
+		{%- tablerow researcher in researcher_arr cols:2 -%}
+				{% capture researcher_cap %}
+				{{ researcher }}
+				{% endcapture %}
+				{% include researcher.html researcher=researcher_cap page='researchers'%}
+		{%- endtablerow -%}
+	</tbody>
+</table>		

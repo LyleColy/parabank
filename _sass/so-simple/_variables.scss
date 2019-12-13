@@ -41,15 +41,16 @@ $h6-max: ($base-font-size / $modular-scale-2) !default;
 $serif-font-family: "Lora", serif !default;
 $sans-serif-font-family: "Source Sans Pro", sans-serif !default;
 $monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace !default;
+$volkhov-font-family: "volkhov", serif;
 
 $base-font-family: $sans-serif-font-family !default;
 $headline-font-family: $sans-serif-font-family !default;
-$title-font-family: $serif-font-family !default;
+$title-font-family: $volkhov-font-family !default;
 $description-font-family: $serif-font-family !default;
 $meta-font-family: $serif-font-family !default;
 
-$page-title-weight: bold !default;
-$entry-title-weight: bold !default;
+$page-title-weight: normal !default;
+$entry-title-weight: normal !default;
 
 /* YIQ color contrast */
 $yiq-contrasted-dark-default: #000 !default;
