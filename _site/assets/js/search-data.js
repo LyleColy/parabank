@@ -10,12 +10,12 @@ var store = [{
         "url": "http://localhost:4000/researchers/edu.html"
       },{
         "title": "Huda Khayrallah",
-        "excerpt":" Project ParaBank Website http://www.cs.jhu.edu/~huda/ About Huda is a PhD student in the Department of Computer Science at Johns Hopkins University, and a member of the Center for Language and Speech Processing at JHU. She received her B.A. in Computer Science in 2015 from UC Berkeley. ","categories": ["graduate"],
+        "excerpt":"\t\t\t\t    \t  \tProject ParaBank Website http://www.cs.jhu.edu/~huda/ About Huda is a PhD student in the Department of Computer Science at Johns Hopkins University, and a member of the Center for Language and Speech Processing at JHU. She received her B.A. in Computer Science in 2015 from UC Berkeley. ","categories": ["graduate"],
         "tags": [],
         "url": "http://localhost:4000/researchers/hkhayrallah.html"
       },{
         "title": "Matt Post",
-        "excerpt":" Project Decomp Toolkit,ParaBank,ParaBank 2 Website https://cs.jhu.edu/~post/ About Matt is a research scientist at the Human Language Technology Center of Excellence, with secondary appointments in the Department of Computer Science and the Center for Language and Speech Processing at Johns Hopkins University. ","categories": ["research"],
+        "excerpt":"\t\t\t\t    \t  \tProject Decomp Toolkit,ParaBank,ParaBank 2 Website https://cs.jhu.edu/~post/ About Matt is a research scientist at the Human Language Technology Center of Excellence, with secondary appointments in the Department of Computer Science and the Center for Language and Speech Processing at Johns Hopkins University. ","categories": ["research"],
         "tags": [],
         "url": "http://localhost:4000/researchers/mpost.html"
       },{
@@ -25,17 +25,17 @@ var store = [{
         "url": "http://localhost:4000/researchers/paxia.html"
       },{
         "title": "Ryan Culkin",
-        "excerpt":" ","categories": ["graduate"],
+        "excerpt":"\t\t\t\t    \t  \t","categories": ["graduate"],
         "tags": [],
         "url": "http://localhost:4000/researchers/rculkin.html"
       },{
         "title": "Rachel Rudinger",
-        "excerpt":" Project Website About Rachel is a Ph.D. student in the Department of Computer Science at Johns Hopkins University, and a member of the Center for Language and Speech Processing. She received her B.S. in Computer Science from Yale University in 2013. ","categories": ["research"],
+        "excerpt":"\t\t\t\t    \t  \tProject Website About Rachel is a Ph.D. student in the Department of Computer Science at Johns Hopkins University, and a member of the Center for Language and Speech Processing. She received her B.S. in Computer Science from Yale University in 2013. ","categories": ["research"],
         "tags": [],
         "url": "http://localhost:4000/researchers/rrudinger.html"
       },{
         "title": "Tongfei Chen",
-        "excerpt":" ","categories": ["graduate"],
+        "excerpt":"\t\t\t\t    \t  \t","categories": ["graduate"],
         "tags": [],
         "url": "http://localhost:4000/researchers/tchen.html"
       }]

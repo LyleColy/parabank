@@ -2,8 +2,8 @@
 	{% assign researcher = include.researcher %}
 
 	{%- if researcher.picture -%}
-		{%- if researcher.link -%}
-	    	<a href="{{ researcher.link | relative_url }}">
+		{%- if researcher.url -%}
+	    	<a href="{{ researcher.url | relative_url }}">
 	        	<img src="{{ researcher.picture }}" class="bio-photo-about" alt="{{ researcher.name }}">
 	      	</a>
 	    {%- endif -%}
@@ -11,7 +11,7 @@
   	{%- endif -%}
 
   	{%- if researcher.name -%}
-	    <a href="{{ researcher.link | relative_url }}">
+	    <a href="{{ researcher.url | relative_url }}">
 	      	<b>{{ researcher.name}}</b>
 	    </a>
     {%- endif -%}

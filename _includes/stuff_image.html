@@ -1,9 +1,9 @@
 <center>
-	{% assign link = include.link %}
+	{% assign url = include.url %}
 	{% assign picture = include.picture %}
 	{% assign name = include.name %}
 
-	<a href="{{ link | relative_url }}">
+	<a href="{{ url | relative_url }}">
     	<img src="{{ picture }}" class="bio-photo-about-big" alt="{{ name }}">
   	</a>
 

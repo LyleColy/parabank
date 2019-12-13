@@ -3,7 +3,7 @@ layout: home
 name: Huda Khayrallah
 abbr_name: hkhayrallah
 picture: /images/hkhayrallah.jpg
-link: /researchers/hkhayrallah
+url: /researchers/hkhayrallah
 category: graduate
 position: Research Assistant
 university: Johns Hopkins University
@@ -11,7 +11,7 @@ university: Johns Hopkins University
 
 # Huda Khayrallah
 
-![Image](/images/hkhayrallah.jpg)
+{% include stuff_image.html url=page.url picture=page.picture name=page.name %}
 
 ## Project
 

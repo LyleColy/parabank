@@ -3,7 +3,7 @@ layout: home
 name: Edward Hu
 abbr_name: edu
 picture: /images/ehu.jpg
-link: /researchers/edu
+url: /researchers/edu
 category: undergraduate
 position: Research Assistant
 university: Johns Hopkins University
@@ -11,7 +11,7 @@ university: Johns Hopkins University
 
 # Edward Hu
 
-![Image](/images/edu.jpg)
+{% include stuff_image.html url=page.url picture=page.picture name=page.name %}
 
 ## Project
 

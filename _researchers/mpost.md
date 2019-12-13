@@ -3,7 +3,7 @@ layout: home
 name: Matt Post
 abbr_name: mpost
 picture: /images/mpost.jpg
-link: /researchers/mpost
+url: /researchers/mpost
 category: research
 position: Research Scientist
 department: HLTCOE
@@ -11,7 +11,7 @@ department: HLTCOE
 
 # Matt Post
 
-![Image](/images/mpost.jpg)
+{% include stuff_image.html url=page.url picture=page.picture name=page.name %}
 
 ## Project
 

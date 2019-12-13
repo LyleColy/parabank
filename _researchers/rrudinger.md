@@ -3,7 +3,7 @@ layout: home
 name: Rachel Rudinger
 abbr_name: rrudinger
 picture: /images/rrudinger.jpg
-link: /researchers/rrudinger
+url: /researchers/rrudinger
 category: research
 position: Research Scientist
 department: department
@@ -11,7 +11,7 @@ department: department
 
 # Rachel Rudinger
 
-![Image](/images/rrudinger.jpg)
+{% include stuff_image.html url=page.url picture=page.picture name=page.name %}
 
 ## Project
 

@@ -11,4 +11,4 @@ university: Johns Hopkins University
 
 # Tongfei Chen
 
-![Image](/images/tchen.jpg)
+{% include stuff_image.html url=page.url picture=page.picture name=page.name %}
