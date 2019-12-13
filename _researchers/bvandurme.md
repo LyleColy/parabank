@@ -2,7 +2,7 @@
 layout: page
 name: Benjamin Van Durme
 abbr_name: bvandurme
-picture: /images/bvandurme.jpg
+picture: "/images/bvandurme.jpg"
 link: /researchers/bvandurme
 category: faculty
 position: Assistant Professor of Computer Science
