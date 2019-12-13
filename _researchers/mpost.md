@@ -7,6 +7,7 @@ url: /researchers/mpost
 category: research
 position: Research Scientist
 department: HLTCOE
+order: 1
 ---
 
 # Matt Post

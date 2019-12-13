@@ -7,6 +7,7 @@ url: /researchers/rrudinger
 category: research
 position: Research Scientist
 department: AI2
+order: 1
 ---
 
 # Rachel Rudinger

@@ -7,6 +7,7 @@ url: /researchers/tchen
 category: graduate
 position: Research Assistant
 univ: Johns Hopkins University
+order: 2
 ---
 
 # Tongfei Chen

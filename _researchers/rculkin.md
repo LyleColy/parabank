@@ -7,6 +7,7 @@ url: /researchers/rculkin
 category: graduate
 position: Research Assistant
 univ: Johns Hopkins University
+order: 2
 ---
 
 # Ryan Culkin

@@ -1,6 +1,7 @@
 <table>
 	<tbody>
-		{%- tablerow researcher in site.researchers cols:3 -%}
+		{% assign sorted = site.researchers | sort: 'order' %}
+		{%- tablerow researcher in sorted cols:3 -%}
 			{% capture researcher_cap %}
 			{{ researcher }}
 			{% endcapture %}

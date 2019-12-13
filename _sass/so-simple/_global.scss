@@ -368,10 +368,10 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
 
 .bio-photo-about {
-  width: 1.5 * $site-logo-width;
-  height: 1.5 * $site-logo-height;
+  width: 150px;
+  height: 150px;
   margin-top: 10px;
-  border-radius: 1.5 * $site-logo-width;
+  border-radius: 150px;
 }
 
 .bio-photo-about-big {

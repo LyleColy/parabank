@@ -7,6 +7,7 @@ url: /researchers/hkhayrallah
 category: graduate
 position: Research Assistant
 univ: Johns Hopkins University
+order: 2
 ---
 
 # Huda Khayrallah

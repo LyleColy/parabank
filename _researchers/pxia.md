@@ -7,6 +7,7 @@ url: /researchers/pxia
 category: graduate
 position: Research Assistant
 univ: Johns Hopkins University
+order: 2
 ---
 
 # Patrick Xia

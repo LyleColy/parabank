@@ -7,6 +7,7 @@ url: /researchers/bvandurme
 category: faculty
 position: Assistant Professor of Computer Science
 univ: Johns Hopkins University
+order: 0
 ---
 
 # Benjamin Van Durme

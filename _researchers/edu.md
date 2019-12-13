@@ -7,6 +7,7 @@ url: /researchers/edu
 category: undergraduate
 position: Research Assistant
 univ: Johns Hopkins University
+order: 3
 ---
 
 # Edward Hu
