@@ -3,7 +3,7 @@ layout: home
 name: Edward Hu
 abbr_name: edu
 picture: /images/ehu.jpg
-link: /edu
+link: /researchers/edu
 category: undergraduate
 position: Research Assistant
 university: Johns Hopkins University

@@ -3,7 +3,7 @@ layout: home
 name: Huda Khayrallah
 abbr_name: hkhayrallah
 picture: /images/hkhayrallah.jpg
-link: /hkhayrallah
+link: /researchers/hkhayrallah
 category: graduate
 position: Research Assistant
 university: Johns Hopkins University

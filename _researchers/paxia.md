@@ -3,7 +3,7 @@ layout: home
 name: Patrick Xia
 abbr_name: pxia
 picture: /images/pxia.jpg
-link: /pxia
+link: /researchers/pxia
 category: graduate
 position: Research Assistant
 university: Johns Hopkins University

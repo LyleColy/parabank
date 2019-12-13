@@ -3,7 +3,7 @@ layout: home
 name: Rachel Rudinger
 abbr_name: rrudinger
 picture: /images/rrudinger.jpg
-link: /rrudinger
+link: /researchers/rrudinger
 category: research
 position: Research Scientist
 department: department
