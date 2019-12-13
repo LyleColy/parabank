@@ -112,6 +112,14 @@ titles_from_headings:
 collections:
   researchers: 
     output: true
-
+    order: 
+      - bvandurme.md
+      - mpost.md
+      - rrudinger.md
+      - hkhayrallah.md
+      - rculkin.md
+      - paxia.md
+      - tchen.md
+      - edu.md
 # permanent links
 permalink: 

@@ -11,7 +11,7 @@ university: Johns Hopkins University
 
 # Patrick Xia
 
-![Image](/images/pxia.jpg)
+{% include stuff_image.html url=page.url picture=page.picture name=page.name %}
 
 ## Project
 

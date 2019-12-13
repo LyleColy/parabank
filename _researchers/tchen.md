@@ -3,7 +3,7 @@ layout: home
 name: Tongfei Chen
 abbr_name: tchen
 picture: /images/tchen.jpg
-link: /researchers/tchen
+url: /researchers/tchen
 category: graduate
 position: Research Assistant
 university: Johns Hopkins University
