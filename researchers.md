@@ -7,10 +7,7 @@ entries_layout: list
 
 # Researchers
 
-## Faculty
-{% include researchers_category.html category='faculty' %}
-
-## Research Scientists
+## Researchers
 {% include researchers_category.html category='research' %}
 
 ## Graduate Students

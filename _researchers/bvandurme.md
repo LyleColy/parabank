@@ -4,7 +4,7 @@ name: Benjamin Van Durme
 abbr_name: bvandurme
 picture: /images/bvandurme.jpg
 url: /researchers/bvandurme
-category: faculty
+category: research
 position: Assistant Professor of Computer Science
 univ: Johns Hopkins University
 order: 0
